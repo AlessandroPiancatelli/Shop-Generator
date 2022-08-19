@@ -620,6 +620,7 @@ public class NewCustom111_11 extends javax.swing.JFrame {
         jScrollPane4 = new javax.swing.JScrollPane();
         jTable2 = new javax.swing.JTable();
         jLabel1 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
 
         jTextField1.setText("jTextField1");
@@ -640,7 +641,7 @@ public class NewCustom111_11 extends javax.swing.JFrame {
 
         jButton14.setBackground(new java.awt.Color(51, 51, 51));
         jButton14.setForeground(new java.awt.Color(255, 255, 255));
-        jButton14.setText("delete custom");
+        jButton14.setText("Delete custom");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton14ActionPerformed(evt);
@@ -649,8 +650,9 @@ public class NewCustom111_11 extends javax.swing.JFrame {
         getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 100, 110, -1));
 
         jButton15.setBackground(new java.awt.Color(51, 51, 51));
+        jButton15.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jButton15.setForeground(new java.awt.Color(255, 255, 255));
-        jButton15.setText("back");
+        jButton15.setText("Back");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton15ActionPerformed(evt);
@@ -660,7 +662,7 @@ public class NewCustom111_11 extends javax.swing.JFrame {
 
         jButton16.setBackground(new java.awt.Color(51, 51, 51));
         jButton16.setForeground(new java.awt.Color(255, 255, 255));
-        jButton16.setText("sort by");
+        jButton16.setText("Sort by");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton16ActionPerformed(evt);
@@ -688,7 +690,7 @@ public class NewCustom111_11 extends javax.swing.JFrame {
                 jComboBox3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 510, 100, -1));
+        getContentPane().add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 510, 100, -1));
 
         jComboBox4.setBackground(new java.awt.Color(255, 255, 255));
         jComboBox4.setForeground(new java.awt.Color(255, 255, 255));
@@ -698,7 +700,7 @@ public class NewCustom111_11 extends javax.swing.JFrame {
                 jComboBox4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 480, 100, -1));
+        getContentPane().add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 480, 100, -1));
 
         jTextField2.setBackground(new java.awt.Color(51, 51, 51));
         jTextField2.setForeground(new java.awt.Color(255, 255, 255));
@@ -707,7 +709,7 @@ public class NewCustom111_11 extends javax.swing.JFrame {
 
         jButton18.setBackground(new java.awt.Color(51, 51, 51));
         jButton18.setForeground(new java.awt.Color(255, 255, 255));
-        jButton18.setText("sort by");
+        jButton18.setText("Sort by");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton18ActionPerformed(evt);
@@ -725,13 +727,13 @@ public class NewCustom111_11 extends javax.swing.JFrame {
         });
         getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 440, 100, -1));
 
-        jLabel2.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 0));
+        jLabel2.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Library:");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 480, -1, -1));
 
-        jLabel3.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 153));
+        jLabel3.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Category:");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 510, -1, -1));
 
@@ -746,7 +748,7 @@ public class NewCustom111_11 extends javax.swing.JFrame {
 
         jButton19.setBackground(new java.awt.Color(51, 51, 51));
         jButton19.setForeground(new java.awt.Color(255, 255, 255));
-        jButton19.setText("new custom");
+        jButton19.setText("New custom");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton19ActionPerformed(evt);
@@ -756,7 +758,7 @@ public class NewCustom111_11 extends javax.swing.JFrame {
 
         jButton20.setBackground(new java.awt.Color(51, 51, 51));
         jButton20.setForeground(new java.awt.Color(255, 255, 255));
-        jButton20.setText("modify selected custom");
+        jButton20.setText("Modify selected custom");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton20ActionPerformed(evt);
@@ -794,7 +796,7 @@ public class NewCustom111_11 extends javax.swing.JFrame {
 
         jButton10.setBackground(new java.awt.Color(51, 51, 51));
         jButton10.setForeground(new java.awt.Color(255, 255, 255));
-        jButton10.setText("misc");
+        jButton10.setText("Misc");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton10ActionPerformed(evt);
@@ -814,7 +816,7 @@ public class NewCustom111_11 extends javax.swing.JFrame {
 
         jButton6.setBackground(new java.awt.Color(51, 51, 51));
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jButton6.setText("consumables");
+        jButton6.setText("Consumables");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
@@ -824,7 +826,7 @@ public class NewCustom111_11 extends javax.swing.JFrame {
 
         jButton9.setBackground(new java.awt.Color(51, 51, 51));
         jButton9.setForeground(new java.awt.Color(255, 255, 255));
-        jButton9.setText("adventure gear");
+        jButton9.setText("Adventure gear");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton9ActionPerformed(evt);
@@ -862,8 +864,8 @@ public class NewCustom111_11 extends javax.swing.JFrame {
         });
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
-        jSlider1.setFont(new java.awt.Font("sansserif", 1, 18)); // NOI18N
-        jSlider1.setForeground(new java.awt.Color(255, 255, 0));
+        jSlider1.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        jSlider1.setForeground(new java.awt.Color(255, 255, 255));
         jSlider1.setMajorTickSpacing(1);
         jSlider1.setMaximum(10);
         jSlider1.setMinimum(1);
@@ -952,10 +954,14 @@ public class NewCustom111_11 extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 551, 219));
 
-        jLabel1.setFont(new java.awt.Font("sansserif", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 0));
-        jLabel1.setText("item amount");
+        jLabel1.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("Item amount");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 480, -1, -1));
+
+        jPanel1.setBackground(new java.awt.Color(51, 51, 51));
+        jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 470, 580, 90));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PiancsShopGenerator/3ff1ac0e5ecc5491673d41ac25dafa83.jpg"))); // NOI18N
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -1607,6 +1613,7 @@ public class NewCustom111_11 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;

@@ -760,12 +760,9 @@ public class NewShop1 extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jComboBox1 = new javax.swing.JComboBox<>();
         jButton2 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
         jComboBox4 = new javax.swing.JComboBox<>();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
         jButton7 = new javax.swing.JButton();
         jSlider1 = new javax.swing.JSlider();
         jLabel8 = new javax.swing.JLabel();
@@ -773,28 +770,30 @@ public class NewShop1 extends javax.swing.JFrame {
         jComboBox3 = new javax.swing.JComboBox<>();
         jScrollPane4 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
-        jLabel2 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
         jButton9 = new javax.swing.JButton();
         jTextField2 = new javax.swing.JTextField();
-        jButton10 = new javax.swing.JButton();
         jButton11 = new javax.swing.JButton();
         jSlider2 = new javax.swing.JSlider();
-        jButton14 = new javax.swing.JButton();
-        jTextField3 = new javax.swing.JTextField();
         jButton16 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
         jButton15 = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jTextField3 = new javax.swing.JTextField();
+        jButton10 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
         jLabel9 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBounds(new java.awt.Rectangle(0, 0, 1119, 583));
-        setMinimumSize(new java.awt.Dimension(1119, 583));
+        setBounds(new java.awt.Rectangle(0, 0, 1119, 525));
+        setMinimumSize(new java.awt.Dimension(1119, 525));
+        setPreferredSize(new java.awt.Dimension(1130, 525));
         setResizable(false);
         setSize(new java.awt.Dimension(800, 450));
         getContentPane().setLayout(null);
@@ -842,7 +841,8 @@ public class NewShop1 extends javax.swing.JFrame {
         jScrollPane2.setBounds(540, 6, 570, 231);
 
         jButton1.setBackground(new java.awt.Color(51, 51, 51));
-        jButton1.setText("sort by");
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("Sort by");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -857,7 +857,8 @@ public class NewShop1 extends javax.swing.JFrame {
         jComboBox1.setBounds(90, 240, 104, 26);
 
         jButton2.setBackground(new java.awt.Color(51, 51, 51));
-        jButton2.setText("sort by");
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
+        jButton2.setText("Sort by");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -866,38 +867,26 @@ public class NewShop1 extends javax.swing.JFrame {
         getContentPane().add(jButton2);
         jButton2.setBounds(6, 279, 78, 28);
 
-        jLabel1.setForeground(new java.awt.Color(204, 255, 255));
-        jLabel1.setText("category");
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(200, 250, 46, 16);
-
         jButton4.setBackground(new java.awt.Color(51, 51, 51));
-        jButton4.setText("sort by");
+        jButton4.setForeground(new java.awt.Color(255, 255, 255));
+        jButton4.setText("Sort by");
         getContentPane().add(jButton4);
-        jButton4.setBounds(540, 330, 64, 28);
+        jButton4.setBounds(530, 350, 70, 28);
 
         jButton5.setBackground(new java.awt.Color(51, 51, 51));
-        jButton5.setText("sort by");
+        jButton5.setForeground(new java.awt.Color(255, 255, 255));
+        jButton5.setText("Sort by");
         getContentPane().add(jButton5);
-        jButton5.setBounds(540, 370, 64, 28);
+        jButton5.setBounds(530, 380, 70, 28);
 
         jComboBox4.setBackground(new java.awt.Color(255, 255, 255));
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "All", "Weapons", "Armor", "Consumables", "tools", "magic", "PotionAndScrolls", "adventure gear", "misc" }));
         getContentPane().add(jComboBox4);
-        jComboBox4.setBounds(610, 330, 100, 26);
-
-        jLabel4.setForeground(new java.awt.Color(204, 255, 255));
-        jLabel4.setText("category");
-        getContentPane().add(jLabel4);
-        jLabel4.setBounds(710, 340, 46, 16);
-
-        jLabel7.setForeground(new java.awt.Color(204, 255, 255));
-        jLabel7.setText("Total:");
-        getContentPane().add(jLabel7);
-        jLabel7.setBounds(790, 290, 30, 16);
+        jComboBox4.setBounds(610, 350, 100, 26);
 
         jButton7.setBackground(new java.awt.Color(51, 51, 51));
-        jButton7.setText("add item to cart");
+        jButton7.setForeground(new java.awt.Color(255, 255, 255));
+        jButton7.setText("Add item to cart");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
@@ -906,7 +895,8 @@ public class NewShop1 extends javax.swing.JFrame {
         getContentPane().add(jButton7);
         jButton7.setBounds(410, 240, 112, 28);
 
-        jSlider1.setForeground(new java.awt.Color(204, 255, 255));
+        jSlider1.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jSlider1.setForeground(new java.awt.Color(255, 255, 255));
         jSlider1.setMajorTickSpacing(1);
         jSlider1.setMaximum(10);
         jSlider1.setMinimum(1);
@@ -919,10 +909,11 @@ public class NewShop1 extends javax.swing.JFrame {
         getContentPane().add(jSlider1);
         jSlider1.setBounds(334, 279, 200, 45);
 
-        jLabel8.setForeground(new java.awt.Color(204, 255, 255));
+        jLabel8.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Items Amount");
         getContentPane().add(jLabel8);
-        jLabel8.setBounds(252, 279, 76, 16);
+        jLabel8.setBounds(252, 279, 79, 16);
 
         jComboBox2.setBackground(new java.awt.Color(255, 255, 255));
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "name", "type", "cost", "weight" }));
@@ -932,24 +923,22 @@ public class NewShop1 extends javax.swing.JFrame {
         jComboBox3.setBackground(new java.awt.Color(255, 255, 255));
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "name", "type", "cost", "weight" }));
         getContentPane().add(jComboBox3);
-        jComboBox3.setBounds(610, 370, 100, 26);
+        jComboBox3.setBounds(610, 380, 100, 26);
 
         jTextArea1.setColumns(20);
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
+        jTextArea1.setText("Click on an item to get the description");
+        jTextArea1.setToolTipText("");
         jTextArea1.setWrapStyleWord(true);
         jScrollPane4.setViewportView(jTextArea1);
 
         getContentPane().add(jScrollPane4);
-        jScrollPane4.setBounds(186, 342, 348, 162);
-
-        jLabel2.setForeground(new java.awt.Color(204, 255, 255));
-        jLabel2.setText("item description");
-        getContentPane().add(jLabel2);
-        jLabel2.setBounds(92, 342, 88, 16);
+        jScrollPane4.setBounds(180, 330, 348, 162);
 
         jButton3.setBackground(new java.awt.Color(51, 51, 51));
-        jButton3.setText("apply discount");
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
+        jButton3.setText("Apply discount");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -959,7 +948,8 @@ public class NewShop1 extends javax.swing.JFrame {
         jButton3.setBounds(780, 240, 107, 28);
 
         jButton6.setBackground(new java.awt.Color(51, 51, 51));
-        jButton6.setText("remove discount");
+        jButton6.setForeground(new java.awt.Color(255, 255, 255));
+        jButton6.setText("Remove discount");
         getContentPane().add(jButton6);
         jButton6.setBounds(950, 240, 130, 28);
         getContentPane().add(jTextField1);
@@ -969,17 +959,8 @@ public class NewShop1 extends javax.swing.JFrame {
         getContentPane().add(jLabel3);
         jLabel3.setBounds(940, 250, 11, 16);
 
-        jLabel5.setForeground(new java.awt.Color(204, 255, 255));
-        jLabel5.setText("1.00 = 1 gold ; 0.1 = 1 silver ; 0.01 = 1 copper");
-        getContentPane().add(jLabel5);
-        jLabel5.setBounds(770, 320, 243, 16);
-
-        jLabel6.setForeground(new java.awt.Color(204, 255, 255));
-        jLabel6.setText("10.00 = 1 platinum ; es: 12.32 = 1 platinum,2gold,3silver,2copper");
-        getContentPane().add(jLabel6);
-        jLabel6.setBounds(770, 340, 354, 16);
-
         jButton9.setBackground(new java.awt.Color(51, 51, 51));
+        jButton9.setForeground(new java.awt.Color(255, 255, 255));
         jButton9.setText("SaveShop");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -987,33 +968,25 @@ public class NewShop1 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton9);
-        jButton9.setBounds(960, 400, 150, 80);
+        jButton9.setBounds(980, 370, 150, 80);
 
         jTextField2.setText("Shop name...");
         getContentPane().add(jTextField2);
-        jTextField2.setBounds(960, 370, 150, 28);
-
-        jButton10.setBackground(new java.awt.Color(51, 51, 51));
-        jButton10.setText("Buy");
-        jButton10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton10ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton10);
-        jButton10.setBounds(950, 280, 48, 28);
+        jTextField2.setBounds(800, 380, 150, 28);
 
         jButton11.setBackground(new java.awt.Color(51, 51, 51));
-        jButton11.setText("remove from cart");
+        jButton11.setForeground(new java.awt.Color(255, 255, 255));
+        jButton11.setText("Remove from cart");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton11ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton11);
-        jButton11.setBounds(550, 240, 120, 28);
+        jButton11.setBounds(550, 240, 125, 28);
 
-        jSlider2.setForeground(new java.awt.Color(204, 255, 255));
+        jSlider2.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jSlider2.setForeground(new java.awt.Color(255, 255, 255));
         jSlider2.setMajorTickSpacing(1);
         jSlider2.setMaximum(10);
         jSlider2.setMinimum(1);
@@ -1024,21 +997,10 @@ public class NewShop1 extends javax.swing.JFrame {
         jSlider2.setToolTipText("");
         jSlider2.setValue(1);
         getContentPane().add(jSlider2);
-        jSlider2.setBounds(560, 280, 200, 45);
-
-        jButton14.setBackground(new java.awt.Color(51, 51, 51));
-        jButton14.setText("show total");
-        jButton14.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton14ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton14);
-        jButton14.setBounds(1010, 280, 84, 28);
-        getContentPane().add(jTextField3);
-        jTextField3.setBounds(820, 280, 110, 28);
+        jSlider2.setBounds(550, 280, 200, 45);
 
         jButton16.setBackground(new java.awt.Color(51, 51, 51));
+        jButton16.setForeground(new java.awt.Color(255, 255, 255));
         jButton16.setText("Back");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1046,9 +1008,10 @@ public class NewShop1 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton16);
-        jButton16.setBounds(550, 480, 160, 28);
+        jButton16.setBounds(970, 450, 160, 28);
 
         jButton8.setBackground(new java.awt.Color(51, 51, 51));
+        jButton8.setForeground(new java.awt.Color(255, 255, 255));
         jButton8.setText("Shop Stock");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1056,9 +1019,10 @@ public class NewShop1 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton8);
-        jButton8.setBounds(10, 440, 170, 28);
+        jButton8.setBounds(10, 430, 170, 28);
 
         jButton15.setBackground(new java.awt.Color(51, 51, 51));
+        jButton15.setForeground(new java.awt.Color(255, 255, 255));
         jButton15.setText("Refill Invetory");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1066,12 +1030,56 @@ public class NewShop1 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton15);
-        jButton15.setBounds(10, 470, 170, 28);
+        jButton15.setBounds(10, 460, 170, 28);
+
+        jPanel1.setBackground(new java.awt.Color(51, 51, 51));
+        jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel1.setForeground(new java.awt.Color(102, 102, 102));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel7.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setText("Total:");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 40, -1));
+
+        jLabel5.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setText("1.00 = 1 gold ; 0.1 = 1 silver ; 0.01 = 1 copper");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, -1, -1));
+
+        jLabel6.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setText("10.00 = 1 platinum ; es: 12.32 = 1 platinum,2gold,3silver,2copper");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, -1, -1));
+        jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 0, 110, -1));
+
+        jButton10.setBackground(new java.awt.Color(51, 51, 51));
+        jButton10.setForeground(new java.awt.Color(255, 255, 255));
+        jButton10.setText("Buy");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 0, -1, -1));
+
+        jButton14.setBackground(new java.awt.Color(51, 51, 51));
+        jButton14.setForeground(new java.awt.Color(255, 255, 255));
+        jButton14.setText("Show total");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 0, -1, -1));
+
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(760, 280, 370, 90);
 
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PiancsShopGenerator/8.jpg"))); // NOI18N
         jLabel9.setText("jLabel9");
         getContentPane().add(jLabel9);
-        jLabel9.setBounds(0, 0, 1130, 580);
+        jLabel9.setBounds(0, 0, 1130, 500);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -1203,15 +1211,13 @@ public class NewShop1 extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JComboBox<String> jComboBox4;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane4;

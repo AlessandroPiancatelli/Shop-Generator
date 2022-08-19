@@ -467,7 +467,7 @@ public class Shopstock extends javax.swing.JFrame {
 
         jButton3.setBackground(new java.awt.Color(51, 51, 51));
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setText("back");
+        jButton3.setText("Back");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -477,7 +477,7 @@ public class Shopstock extends javax.swing.JFrame {
 
         jButton4.setBackground(new java.awt.Color(51, 51, 51));
         jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setText("save change");
+        jButton4.setText("Save change");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);

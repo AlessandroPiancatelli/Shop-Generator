@@ -98,7 +98,7 @@ public class Menu1old extends javax.swing.JFrame {
         jButton4.setBackground(new java.awt.Color(204, 0, 0));
         jButton4.setFont(new java.awt.Font("Courier New", 1, 18)); // NOI18N
         jButton4.setForeground(new java.awt.Color(0, 0, 0));
-        jButton4.setText("close");
+        jButton4.setText("Close");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);

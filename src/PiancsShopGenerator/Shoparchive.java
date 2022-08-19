@@ -163,7 +163,7 @@ public class Shoparchive extends javax.swing.JFrame {
 
         jButton1.setBackground(new java.awt.Color(51, 51, 51));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("back");
+        jButton1.setText("Back");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -183,7 +183,7 @@ public class Shoparchive extends javax.swing.JFrame {
 
         jButton3.setBackground(new java.awt.Color(51, 51, 51));
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setText("delete shop");
+        jButton3.setText("Delete shop");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);

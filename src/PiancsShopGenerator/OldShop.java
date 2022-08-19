@@ -731,11 +731,9 @@ public class OldShop extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jComboBox1 = new javax.swing.JComboBox<>();
         jButton2 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
         jComboBox4 = new javax.swing.JComboBox<>();
-        jLabel4 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jButton7 = new javax.swing.JButton();
         jSlider1 = new javax.swing.JSlider();
@@ -745,7 +743,6 @@ public class OldShop extends javax.swing.JFrame {
         jComboBox3 = new javax.swing.JComboBox<>();
         jScrollPane4 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
-        jLabel2 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
@@ -760,13 +757,16 @@ public class OldShop extends javax.swing.JFrame {
         jTextField3 = new javax.swing.JTextField();
         jButton15 = new javax.swing.JButton();
         jButton16 = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBounds(new java.awt.Rectangle(0, 0, 1119, 583));
-        setMinimumSize(new java.awt.Dimension(1119, 583));
+        setBounds(new java.awt.Rectangle(0, 0, 1128, 490));
+        setMaximumSize(new java.awt.Dimension(1128, 490));
+        setMinimumSize(new java.awt.Dimension(1128, 490));
+        setPreferredSize(new java.awt.Dimension(1128, 520));
         setResizable(false);
-        setSize(new java.awt.Dimension(800, 450));
+        setSize(new java.awt.Dimension(1128, 500));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -811,7 +811,7 @@ public class OldShop extends javax.swing.JFrame {
 
         jButton1.setBackground(new java.awt.Color(51, 51, 51));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("sort by");
+        jButton1.setText("Sort by");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -826,7 +826,7 @@ public class OldShop extends javax.swing.JFrame {
 
         jButton2.setBackground(new java.awt.Color(51, 51, 51));
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("sort by");
+        jButton2.setText("Sort by");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -834,19 +834,20 @@ public class OldShop extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 279, 78, -1));
 
-        jLabel1.setForeground(new java.awt.Color(204, 255, 255));
-        jLabel1.setText("category");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 250, -1, -1));
-
         jButton4.setBackground(new java.awt.Color(51, 51, 51));
         jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setText("sort by");
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 330, -1, -1));
+        jButton4.setText("Sort by");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 330, 70, -1));
 
         jButton5.setBackground(new java.awt.Color(51, 51, 51));
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jButton5.setText("sort by");
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 370, -1, -1));
+        jButton5.setText("Sort by");
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 370, 70, -1));
 
         jComboBox4.setBackground(new java.awt.Color(255, 255, 255));
         jComboBox4.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
@@ -854,17 +855,14 @@ public class OldShop extends javax.swing.JFrame {
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "All", "Weapons", "Armor", "Consumables", "tools", "magic", "PotionAndScrolls", "adventure gear", "misc" }));
         getContentPane().add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 330, 100, -1));
 
-        jLabel4.setForeground(new java.awt.Color(204, 255, 255));
-        jLabel4.setText("category");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 340, -1, -1));
-
-        jLabel7.setForeground(new java.awt.Color(204, 255, 255));
+        jLabel7.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Total:");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 290, -1, -1));
 
         jButton7.setBackground(new java.awt.Color(51, 51, 51));
         jButton7.setForeground(new java.awt.Color(255, 255, 255));
-        jButton7.setText("add item to cart");
+        jButton7.setText("Add item to cart");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
@@ -872,7 +870,8 @@ public class OldShop extends javax.swing.JFrame {
         });
         getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 240, -1, -1));
 
-        jSlider1.setForeground(new java.awt.Color(204, 255, 255));
+        jSlider1.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jSlider1.setForeground(new java.awt.Color(255, 255, 255));
         jSlider1.setMajorTickSpacing(1);
         jSlider1.setMaximum(10);
         jSlider1.setMinimum(1);
@@ -883,7 +882,8 @@ public class OldShop extends javax.swing.JFrame {
         jSlider1.setValue(1);
         getContentPane().add(jSlider1, new org.netbeans.lib.awtextra.AbsoluteConstraints(334, 279, -1, -1));
 
-        jLabel8.setForeground(new java.awt.Color(204, 255, 255));
+        jLabel8.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Items Amount");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(252, 279, -1, -1));
 
@@ -895,7 +895,7 @@ public class OldShop extends javax.swing.JFrame {
                 jButton8ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 440, 170, -1));
+        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 430, 170, -1));
 
         jComboBox2.setBackground(new java.awt.Color(255, 255, 255));
         jComboBox2.setForeground(new java.awt.Color(255, 255, 255));
@@ -910,18 +910,15 @@ public class OldShop extends javax.swing.JFrame {
         jTextArea1.setColumns(20);
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
+        jTextArea1.setText("Click on an item to get the description");
         jTextArea1.setWrapStyleWord(true);
         jScrollPane4.setViewportView(jTextArea1);
 
-        getContentPane().add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(186, 342, 348, 162));
-
-        jLabel2.setForeground(new java.awt.Color(0, 255, 204));
-        jLabel2.setText("item description");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(92, 342, -1, -1));
+        getContentPane().add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 330, 348, 162));
 
         jButton3.setBackground(new java.awt.Color(51, 51, 51));
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setText("apply discount");
+        jButton3.setText("Apply discount");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -931,20 +928,20 @@ public class OldShop extends javax.swing.JFrame {
 
         jButton6.setBackground(new java.awt.Color(51, 51, 51));
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jButton6.setText("remove discount");
+        jButton6.setText("Remove discount");
         getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 240, 130, -1));
-
-        jTextField1.setText("jTextField1");
         getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 240, 50, -1));
 
         jLabel3.setText("%");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 250, -1, -1));
 
-        jLabel5.setForeground(new java.awt.Color(204, 255, 255));
+        jLabel5.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("1.00 = 1 gold ; 0.1 = 1 silver ; 0.01 = 1 copper");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 320, -1, -1));
 
-        jLabel6.setForeground(new java.awt.Color(204, 255, 255));
+        jLabel6.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("10.00 = 1 platinum ; es: 12.32 = 1 platinum,2gold,3silver,2copper");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 340, -1, -1));
 
@@ -956,7 +953,7 @@ public class OldShop extends javax.swing.JFrame {
                 jButton9ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 400, 150, 80));
+        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 370, 150, 80));
 
         jButton10.setBackground(new java.awt.Color(51, 51, 51));
         jButton10.setForeground(new java.awt.Color(255, 255, 255));
@@ -970,7 +967,7 @@ public class OldShop extends javax.swing.JFrame {
 
         jButton11.setBackground(new java.awt.Color(51, 51, 51));
         jButton11.setForeground(new java.awt.Color(255, 255, 255));
-        jButton11.setText("remove from cart");
+        jButton11.setText("Remove from cart");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton11ActionPerformed(evt);
@@ -978,7 +975,8 @@ public class OldShop extends javax.swing.JFrame {
         });
         getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 240, -1, -1));
 
-        jSlider2.setForeground(new java.awt.Color(204, 255, 255));
+        jSlider2.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jSlider2.setForeground(new java.awt.Color(255, 255, 255));
         jSlider2.setMajorTickSpacing(1);
         jSlider2.setMaximum(10);
         jSlider2.setMinimum(1);
@@ -988,11 +986,11 @@ public class OldShop extends javax.swing.JFrame {
         jSlider2.setSnapToTicks(true);
         jSlider2.setToolTipText("");
         jSlider2.setValue(1);
-        getContentPane().add(jSlider2, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 280, -1, -1));
+        getContentPane().add(jSlider2, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 280, -1, -1));
 
         jButton14.setBackground(new java.awt.Color(51, 51, 51));
         jButton14.setForeground(new java.awt.Color(255, 255, 255));
-        jButton14.setText("show total");
+        jButton14.setText("Show total");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton14ActionPerformed(evt);
@@ -1011,20 +1009,24 @@ public class OldShop extends javax.swing.JFrame {
                 jButton15ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 470, 170, -1));
+        getContentPane().add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 460, 170, -1));
 
         jButton16.setBackground(new java.awt.Color(51, 51, 51));
         jButton16.setForeground(new java.awt.Color(255, 255, 255));
-        jButton16.setText("back");
+        jButton16.setText("Back");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton16ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 450, -1, -1));
+        getContentPane().add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 450, 150, -1));
+
+        jPanel1.setBackground(new java.awt.Color(51, 51, 51));
+        jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 280, 370, 80));
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PiancsShopGenerator/8.jpg"))); // NOI18N
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -160, -1, 740));
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1130, 500));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -1089,6 +1091,10 @@ public class OldShop extends javax.swing.JFrame {
         showdescription();
     }//GEN-LAST:event_jTable1MousePressed
 
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton4ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1150,15 +1156,13 @@ public class OldShop extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JComboBox<String> jComboBox4;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane4;

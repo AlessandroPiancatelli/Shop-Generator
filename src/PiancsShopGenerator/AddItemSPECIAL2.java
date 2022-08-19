@@ -410,25 +410,30 @@ public class AddItemSPECIAL2 extends javax.swing.JFrame {
         });
         getContentPane().add(weigthTF, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 140, 136, -1));
 
+        jLabel1.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Name:");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, -1, -1));
 
+        jLabel2.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Category:");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 46, -1, -1));
 
+        jLabel3.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Type:");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 90, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, -1, -1));
 
+        jLabel4.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Cost:");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, -1, -1));
 
+        jLabel5.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Weigth:");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, 50, 20));
 
         DescriptionTA.setColumns(20);
         DescriptionTA.setLineWrap(true);
@@ -438,6 +443,7 @@ public class AddItemSPECIAL2 extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(78, 188, 347, 170));
 
+        jLabel6.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Description:");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 188, -1, -1));
@@ -462,9 +468,10 @@ public class AddItemSPECIAL2 extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, -1, -1));
 
+        jLabel8.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setText("library:");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 10, -1, -1));
+        jLabel8.setText("Library:");
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 0, -1, -1));
 
         magicCB.setForeground(new java.awt.Color(255, 255, 255));
         magicCB.setText("Magic");
@@ -483,11 +490,12 @@ public class AddItemSPECIAL2 extends javax.swing.JFrame {
                 jComboBox1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 10, 164, -1));
+        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 0, 164, -1));
 
+        jLabel7.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setText("selected library items");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, -1, -1));
+        jLabel7.setText("Selected library items");
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 20, -1, -1));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
